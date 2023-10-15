@@ -1,13 +1,33 @@
-# Sample Hardhat Project
+# NFT Minting with Hardhat
+This project provides a simple and effective way of minting NFTs using Hardhat.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Requirements
+- Node.js v14.15.1 or later
+- Hardhat v2.0.11
+- Ethereum wallet like Metamask
 
-Try running some of the following tasks:
+## Installation
+Clone the project:
+git clone https://github.com/sameersinghcode/NFT-Minting-with-hardhat.git
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+Install dependencies:
+npm install
+
+Set up your .env file with your Ethereum wallet private key and Infura project ID:
+PRIVATE_KEY=your-private-key INFURA_PROJECT_ID=your-infura-project-id
+
+
+## Usage
+Compile the contracts:
+npx hardhat compile
+
+Run the local hardhat network:
 npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+
+Deploy the contracts:
+npx hardhat run scripts/deploy.js --network localhost
+
+
+## License and Author Info
+This project is available under the MIT license. See the LICENSE file for more info.
+Author: Sameer Singh
