@@ -8,10 +8,10 @@ This project provides a simple and effective way of minting NFTs using Hardhat.
 
 ## Installation
 Clone the project:
-git clone https://github.com/sameersinghcode/NFT-Minting-with-hardhat.git
+`git clone https://github.com/sameersinghcode/NFT-Minting-with-hardhat.git`
 
 Install dependencies:
-npm install
+`npm install`
 
 Set up your .env file with your Ethereum wallet private key and Infura project ID:
 PRIVATE_KEY=your-private-key INFURA_PROJECT_ID=your-infura-project-id
@@ -19,13 +19,13 @@ PRIVATE_KEY=your-private-key INFURA_PROJECT_ID=your-infura-project-id
 
 ## Usage
 Compile the contracts:
-npx hardhat compile
+`npx hardhat compile`
 
 Run the local hardhat network:
-npx hardhat node
+`npx hardhat node`
 
 Deploy the contracts:
-npx hardhat run scripts/deploy.js --network localhost
+`npx hardhat run scripts/deploy.js --network localhost`
 
 
 ## License and Author Info
